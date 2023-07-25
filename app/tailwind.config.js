@@ -15,6 +15,7 @@ module.exports = {
       hover: "#d92f4c",
       arrow: "#a7a7a7",
       subtitle: "#e2e2e2",
+      form: "#323232",
     },
     extend: {
       fontFamily: {
