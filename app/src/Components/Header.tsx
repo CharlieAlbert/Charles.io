@@ -15,10 +15,10 @@ const Header = () => {
         </div>
         <section className="MOBILE-MENU flex">
           <div
-            className="HUMBERGER-ICON space-y-2 absolute top-0 right-0 p-8"
+            className="HUMBERGER-ICON space-y-2 absolute top-0 right-0 p-8 cursor-pointer"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-2 animate-pulse bg-white hover: w-8"></span>
+            <span className="block h-0.5 w-2 animate-pulse bg-white"></span>
             <span className="block h-0.5 w-4 animate-pulse bg-white"></span>
             <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
           </div>
@@ -27,7 +27,7 @@ const Header = () => {
             className={isNavOpen ? "showMenuNav bg-secondary" : "hideMenuNav"}
           >
             <div
-              className="CROSS-ICON absolute top-0 right-0 px-8 py-6"
+              className="CROSS-ICON absolute top-0 right-0 px-8 py-6 cursor-pointer"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
@@ -46,7 +46,7 @@ const Header = () => {
 
             <ul className="NAVIGATION-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">Home</a>
+                <a href="/home">Home</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/stack">My Stack</a>

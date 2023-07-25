@@ -9,6 +9,7 @@ import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
+import Contact from "./Pages/Contact";
 
 export const scroll = new _SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -18,7 +19,7 @@ export const scroll = new _SmoothScroll('a[href*="#"]', {
 function App() {
   return (
     <div className="App-header font-inter">
-      <Services />
+      <Contact />
     </div>
   );
 }
