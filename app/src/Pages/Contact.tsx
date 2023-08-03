@@ -8,7 +8,7 @@ const Contact = () => {
           Drop me a line
         </p>
         <svg
-          className="w-4 h-4 text-arrow dark:text-white"
+          className="w-6 h-6 text-arrow dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -18,7 +18,7 @@ const Contact = () => {
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth="2"
+            strokeWidth="1"
             d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
           />
         </svg>
@@ -32,7 +32,7 @@ const Contact = () => {
         {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-secondary h-32 w-full"></div> */}
 
         <div className="relative p-5 lg:px-20 flex flex-col md:flex-row items-center justify-center">
-          <div className="w-full md:w-1/2 p-5 md:px-0 mx-2">
+          <div className="w-full md:w-1/2 p-5 md:px-0 md:flex md:flex-row mx-2">
             <div className="w-full lg:w-1/2 h-full p-5 pt-8">
               {/* <h3 className="text-2xl font-medium mb-5">My Socials</h3> */}
               <div className="flex flex-col gap-3">
@@ -104,7 +104,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  className="px-3 py-2 bg-form border-none focus:border-secondary focus:outline-none focus:bg-form focus:text-arrow"
+                  className="px-3 py-2 bg-form border-none focus:border-secondary focus:outline-none focus:bg-form focus:text-white"
                   autoComplete="off"
                 ></input>
               </div>
@@ -115,7 +115,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="email"
-                  className="px-3 py-2 bg-form border-none focus:border-secondary focus:outline-none focus:bg-form focus:text-arrow"
+                  className="px-3 py-2 bg-form border-none focus:border-secondary focus:outline-none focus:bg-form focus:text-white"
                   autoComplete="off"
                 ></input>
               </div>
@@ -126,7 +126,7 @@ const Contact = () => {
                 <textarea
                   rows={4}
                   id="message"
-                  className="px-3 py-2 bg-form border-none focus:border-secondary focus:outline-none focus:bg-form focus:text-arrow"
+                  className="px-3 py-2 bg-form border-none focus:border-secondary focus:outline-none focus:bg-form focus:text-white"
                 ></textarea>
               </div>
             </div>

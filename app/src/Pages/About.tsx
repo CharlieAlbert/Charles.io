@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <div className="bg-secondary text-center pb-16 pt-12">
-      <div className="pb-5 flex flex-col items-center justify-center">
-        <p className="tracking-widest font-medium text-transform: uppercase text-base">
+      <div className="py-7 flex flex-col items-center justify-center">
+        <p className="p-4 text-white tracking-widest font-medium text-transform: uppercase text-base">
           A little about me
         </p>
         <svg
-          className="w-5 h-5 text-arrow dark:text-white"
+          className="w-6 h-6 text-arrow dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -18,13 +18,13 @@ const About = () => {
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            stroke-width="1"
             d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
           />
         </svg>
       </div>
 
-      <p className="px-8 text-sm">
+      <p className="px-16 pb-4 text-sm leading-7">
         I am not simply a computer enthusiast; I am driven by a curiosity that
         extends beyond the digital realm. Drawing inspiration from my
         surroundings, I infuse my work with a distinctive viewpoint, influenced

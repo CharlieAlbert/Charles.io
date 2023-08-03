@@ -13,13 +13,13 @@ const Header = () => {
             <span className="text-white">lbert.io</span>
           </a>
         </div>
-        <section className="MOBILE-MENU flex">
+        <section className="MOBILE-MENU flex fixed top-0 right-[-250px] h-screen z-50">
           <div
-            className="HUMBERGER-ICON space-y-2 absolute top-0 right-0 p-8 cursor-pointer"
+            className="group HUMBERGER-ICON space-y-2 absolute top-0 right-0 p-8 cursor-pointer rotate-180"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-2 animate-pulse bg-white"></span>
-            <span className="block h-0.5 w-4 animate-pulse bg-white"></span>
+            <span className="block h-0.5 w-2 animate-pulse bg-white group-hover:w-8 transition ease-in-out delay-150"></span>
+            <span className="block h-0.5 w-4 animate-pulse bg-white group-hover:w-8 transition ease-in-out delay-150"></span>
             <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
           </div>
 

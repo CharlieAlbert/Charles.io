@@ -2,13 +2,13 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="bg-background min-h-[100vh]">
+    <div className="bg-background min-h-[100vh] py-10">
       <div className="py-7 flex flex-col items-center justify-center">
         <p className="p-4 text-secondary tracking-widest font-medium text-transform: uppercase text-base">
           I do amazing things for clients
         </p>
         <svg
-          className="w-4 h-4 text-arrow dark:text-white"
+          className="w-6 h-6 text-arrow dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -18,7 +18,7 @@ const Services = () => {
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            stroke-width="1"
             d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
           />
         </svg>
