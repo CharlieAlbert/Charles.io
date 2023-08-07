@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="bg-background min-h-[100vh] py-10">
+    <div className="bg-background min-h-[100vh] py-10" id="services">
       <div className="py-7 flex flex-col items-center justify-center">
         <p className="p-4 text-secondary tracking-widest font-medium text-transform: uppercase text-base">
           I do amazing things for clients

@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-background">
+    <div className="bg-background" id="contact">
       <div className="py-7 flex flex-col items-center justify-center">
         <p className="p-4 text-secondary tracking-widest font-medium text-transform: uppercase text-base">
           Drop me a line

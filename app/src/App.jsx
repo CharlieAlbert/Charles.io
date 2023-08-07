@@ -4,6 +4,8 @@ import _SmoothScroll from "smooth-scroll";
 
 //Components
 import Header from "./Components/Header";
+import AnimatedText from "./Components/AnimatedText";
+import Nav from "./Components/Nav";
 
 //Pages
 import Home from "./Pages/Home";
