@@ -5,7 +5,7 @@ const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <div className="nav bg-background fixed z-30 top-0 left-0 w-full flex justify-between items-center p-12">
+    <div className="nav bg-background relative z-30 top-0 left-0 w-full flex justify-between items-center p-12">
       <div className="navbar">
         <div className="absolute top-0 left-0 p-12 text-3xl flex items-center">
           <a href="/">
@@ -14,7 +14,7 @@ const Nav = () => {
           </a>
         </div>
         <div
-          className="menu-toggle absolute cursor-pointer top-0 right-0"
+          className="menu-toggle fixed cursor-pointer top-0 right-0"
           onClick={() => setNavOpen(!navOpen)}
         >
           <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>

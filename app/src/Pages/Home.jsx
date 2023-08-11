@@ -7,7 +7,7 @@ const Home = () => {
     <div className="bg-background h-screen z-0" id="home">
       <Nav />
       <div className="pt-12">
-        <div className="intro mt-24 ms-8 w-[60vw]">
+        <div className="intro mt-12 ms-8 w-[60vw]">
           <span className="text-8xl font-semibold">
             <span className="text-secondary">Howdy,</span> I'm Albert.
           </span>
