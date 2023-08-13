@@ -14,7 +14,7 @@ const Nav = () => {
           </a>
         </div>
         <div
-          className="menu-toggle fixed cursor-pointer top-0 right-0"
+          className="menu-toggle animate-pulse fixed cursor-pointer top-0 right-0"
           onClick={() => setNavOpen(!navOpen)}
         >
           <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>
