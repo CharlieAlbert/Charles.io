@@ -5,7 +5,7 @@ const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <div className="nav bg-background relative z-30 top-0 left-0 w-full flex justify-between items-center p-12">
+    <div className="nav bg-background relative z-30 top-0 right-0 w-[40vw] flex justify-between items-center p-12">
       <div className="navbar">
         <div className="absolute top-0 left-0 p-12 text-3xl flex items-center">
           <a href="/">
@@ -24,9 +24,9 @@ const Nav = () => {
         </div>
       </div>
       <div
-        className="nav-overlay fixed bg-gray-600 -z-10 -top-full left-0 w-full h-screen overflow-hidden p-32"
+        className="nav-overlay fixed bg-gray-600 -z-10 top-0 right-0 w-[40vw] h-screen overflow-hidden p-16"
         style={{
-          top: navOpen ? "0" : "-100%",
+          right: navOpen ? "0" : "-100%",
           transitionDelay: navOpen ? "0" : "0",
         }}
       >
@@ -36,7 +36,7 @@ const Nav = () => {
               href="/"
               onClick={() => setNavOpen(!navOpen)}
               style={{
-                top: navOpen ? "0" : "120px",
+                right: navOpen ? "0" : "120px",
                 transitionDelay: navOpen ? "0.8s" : "0s",
               }}
             >
@@ -49,7 +49,7 @@ const Nav = () => {
               href="#About"
               onClick={() => setNavOpen(!navOpen)}
               style={{
-                top: navOpen ? "0" : "120px",
+                right: navOpen ? "0" : "120px",
                 transitionDelay: navOpen ? "0.9s" : "0s",
               }}
             >
@@ -62,7 +62,7 @@ const Nav = () => {
               href="#services"
               onClick={() => setNavOpen(!navOpen)}
               style={{
-                top: navOpen ? "0" : "120px",
+                right: navOpen ? "0" : "120px",
                 transitionDelay: navOpen ? "1s" : "0s",
               }}
             >
@@ -75,7 +75,7 @@ const Nav = () => {
               href="#contact"
               onClick={() => setNavOpen(!navOpen)}
               style={{
-                top: navOpen ? "0" : "120px",
+                right: navOpen ? "0" : "120px",
                 transitionDelay: navOpen ? "1.1s" : "0s",
               }}
             >
@@ -84,7 +84,7 @@ const Nav = () => {
             <div className="nav-item-wrapper"></div>
           </li>
         </ul>
-        <div className="nav-footer">
+        <div className="nav-footer flex">
           <div
             className="location m-2"
             style={{
@@ -92,9 +92,7 @@ const Nav = () => {
               opacity: navOpen ? "1" : "0",
               transitionDelay: navOpen ? "1.2s" : "0",
             }}
-          >
-            <span className="text-xs">© Albert 2023.</span>
-          </div>
+          ></div>
           <div className="nav-socials">
             <ul>
               <li>
@@ -107,7 +105,7 @@ const Nav = () => {
                   }}
                 >
                   <svg
-                    className="w-6 h-6 m-2 text-[#1DA1F2] hover:text-hover"
+                    className="w-6 h-6 m-2 text-secondary hover:text-hover"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -132,7 +130,7 @@ const Nav = () => {
                 >
                   <svg
                     fill="currentColor"
-                    className="w-6 h-6 m-2 text-[#0A66C2] hover:text-hover"
+                    className="w-6 h-6 m-2 text-secondary hover:text-hover"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                   >
@@ -150,7 +148,7 @@ const Nav = () => {
                   }}
                 >
                   <svg
-                    className="w-6 h-6 m-2 text-[#4078c0] hover:text-hover"
+                    className="w-6 h-6 m-2 text-secondary hover:text-hover"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
                     viewBox="0 0 20 20"
