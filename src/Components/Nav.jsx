@@ -24,7 +24,7 @@ const Nav = () => {
         </div>
       </div>
       <div
-        className="nav-overlay fixed bg-gray-600 -z-10 top-0 right-0 w-[40vw] h-screen overflow-hidden p-16"
+        className="nav-overlay fixed bg-form -z-10 top-0 right-0 w-[40vw] h-screen overflow-hidden p-16"
         style={{
           right: navOpen ? "0" : "-100%",
           transitionDelay: navOpen ? "0" : "0",

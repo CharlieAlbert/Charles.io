@@ -16,7 +16,7 @@ const Home = () => {
 
         <div className="flex items-center mt-16">
           <span className="block h-0.5 w-24 me-8 bg-white"></span>
-          <div className="px-6 py-4 text-base border-inherit bg-secondary hover:bg-hover cursor-pointer">
+          <button className="px-6 py-4 text-base border-inherit bg-secondary hover:bg-hover cursor-pointer">
             <a
               href={Resume}
               download="MyResume"
@@ -25,7 +25,7 @@ const Home = () => {
             >
               Download Resume
             </a>
-          </div>
+          </button>
         </div>
         <div className="mt-12 p-8 w-full flex flex-col items-center justify-center absolute bottom-0 tracking-widest font-extralight text-transform: uppercase text-base">
           <p className="p-4">see more</p>
