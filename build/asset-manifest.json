@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Charles.io/static/css/main.dcfe602c.css",
+    "main.js": "/Charles.io/static/js/main.76f270ff.js",
+    "static/js/787.c1112931.chunk.js": "/Charles.io/static/js/787.c1112931.chunk.js",
+    "static/media/MyResume.pdf": "/Charles.io/static/media/MyResume.75f755c0169f77580f20.pdf",
+    "index.html": "/Charles.io/index.html",
+    "main.dcfe602c.css.map": "/Charles.io/static/css/main.dcfe602c.css.map",
+    "main.76f270ff.js.map": "/Charles.io/static/js/main.76f270ff.js.map",
+    "787.c1112931.chunk.js.map": "/Charles.io/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcfe602c.css",
+    "static/js/main.76f270ff.js"
+  ]
+}
